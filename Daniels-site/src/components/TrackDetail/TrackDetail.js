@@ -33,7 +33,7 @@ class TrackDetail extends React.Component {
                 </div>
                 <div className='song'>
                 <div className='player'>
-                    <audio controls>
+                    <audio autoPlay controls>
                         <source src={this.trackTrack}/>
                     </audio>
                 </div>
