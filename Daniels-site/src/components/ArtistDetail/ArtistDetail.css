@@ -1,0 +1,51 @@
+.wrap {
+    animation: fadein 1s;
+}
+
+.wrap a:link { text-decoration: none; color: white}
+/* a:active { text-decoration: none; color: white} */
+.wrap a:visited { text-decoration: none; color: white}
+/* a:hover { text-decoration: none; color: white} */
+/* a:focus { text-decoration: none; color: white} */
+
+/* *********************** */
+/* ***** my-artist ***** */
+/* *********************** */
+
+.my-artist {
+    margin: auto;
+    display: flex;
+    margin-left: 20%;
+}
+
+.my-artist img {
+    border-radius: 20px;
+    border: 2px solid gray;
+    height: 300px;
+    margin-right: 25px;
+}
+
+.my-artist ul {
+    margin: auto;
+    text-align: left;
+}
+
+.my-artist li {
+    margin: auto;
+    display: flex;
+    padding: 25px;
+}
+
+.my-artist .name {
+    white-space: normal;
+    overflow: visible;
+    font-size: 25px;
+
+}
+
+.my-artist .credit {
+    font-size: 20px;
+}
+.my-artist .bio {
+    line-height: 1.5;
+}

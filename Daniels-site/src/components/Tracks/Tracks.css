@@ -1,0 +1,70 @@
+.wrapper {
+  position: relative;
+  width: 100%;
+}
+
+
+.video-div {
+  padding-bottom: 0;
+  padding-top: 0;
+  width: 100%;
+  min-height: 600px;
+  z-index: -1
+}
+
+.video-div video {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+
+.tracks {
+  top: 0;
+  left: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: inline-block
+  }
+
+
+  @keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  .track-form {
+    border: white  dotted 1px;
+  }
+
+  .track {
+  width: 100vw;
+  box-align: center;
+  display: flex;
+  padding-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  flex: 1;
+  text-align: center;
+}
+
+ .title {
+    font-size: 20px;
+}
+ 
+ .author {
+     font-size: 18px;
+ }
+ 
+ .lyrics {
+  position: flex;
+  font-size: 18px;
+  white-space: pre-line;
+  text-align: left;
+}

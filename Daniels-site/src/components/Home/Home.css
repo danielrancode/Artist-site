@@ -1,0 +1,29 @@
+img {
+    width: auto;
+    max-width: 70vw;
+    max-height: 70vh;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  li {
+    padding: 10%;
+    display: inline;
+  }
+  
+  li a {
+    text-decoration: none;
+    color: rgb(151, 144, 144);
+    font-weight: bold;
+  }
+  
+  li a:hover {
+    text-decoration: underline;
+  }

@@ -1,0 +1,62 @@
+
+
+.wrap a:link { text-decoration: none; color: white}
+/* a:active { text-decoration: none; color: white} */
+.wrap a:visited { text-decoration: none; color: white}
+/* a:hover { text-decoration: none; color: white} */
+/* a:focus { text-decoration: none; color: white} */
+
+/* *********************** */
+/* ***** artist-list ***** */
+/* *********************** */
+
+.artist-list {
+    margin: auto;
+}
+
+.artist-list li {
+    display: flex;
+    padding: 25px;
+}
+
+/* **************************** */
+/* ***** artist-list-item ***** */
+/* **************************** */
+
+.artist-list-item {
+    display: flex;
+    margin-left: 20%;
+}
+
+.artist-list-item img {
+    border-radius: 20px;
+    border: 2px solid gray;
+    height: 300px;
+    margin-right: 25px;
+}
+
+.artist-list-item ul {
+    margin: auto;
+    text-align: left;
+}
+
+.artist-list-item li {
+    margin: auto;
+    padding: 0.5rem;
+}
+
+.artist-list-item .name {
+    white-space: nowrap;
+    font-size: 25px;
+
+}
+
+.artist-list-item .credit {
+    font-size: 20px;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
